@@ -31,7 +31,10 @@ $(document).ready(function(){
                 $(this).slideUp()
             }
        })
-       
+       return false;
+   })
+   $('.family_link .select_link a').on('click',function(){
+       $('.link_list').slideToggle(200)
        return false;
    })
 });
