@@ -37,4 +37,9 @@ $(document).ready(function(){
        $('.link_list').slideToggle(200)
        return false;
    })
+   $('.quick_menu>li').hover(function(){
+       $(this).addClass('active')
+   },function(){
+       $(this).removeClass('active')
+   })
 });

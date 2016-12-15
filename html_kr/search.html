@@ -36,6 +36,7 @@
         <div class="searchArea">
             <p class="detail"><button>상세검색</button></p>
             <p class="search_line"><input type="text" placeholder="검색어를 입력해 주세요"><button><i class="fa fa-search" aria-hidden="true"></i></button></p>
+            <p class="check_search"><input type="checkbox"> <label for="">결과 내 재검색</label></p>
         </div>
         <div class="searchDetail"><!-- 상세검색 -->
             <div class="overay"></div>
@@ -211,6 +212,10 @@
                 </div>
                 <div class="searchResult">
                     <h3>검색결과 - 전체</h3>
+                    <p class="sortView">
+                        <button class="active">관련도 순</button>
+                        <button>최신 순 <img src="../images/kr/ico_arrowDown.png" alt=""></button>
+                    </p>
                     <div class="resultCon">
                         <p class="result_num">검색어 “지사화 뉴스” 의 검색결과 전체 125건이 검색되었습니다.</p>
                         <div class="resultList">
@@ -252,9 +257,11 @@
                                 <dd class="down"><a href="#" class="btn_down"><i class="fa fa-file-text-o" aria-hidden="true"></i> 자료받기</a></dd>
                             </dl>
                         </div>
+                        <p class="viewMore"><a href="#">다음 20개 더보기</a></p>
                     </div>
                     
                 </div>
+                
             </div>
             <div class="searchRight">
                 <div class="righ_contents">
@@ -299,6 +306,7 @@
                             </ul>
                         </dd>
                     </dl>
+                    <p class="btn_top"><a href="#"><img src="../images/kr/btn_top.png" alt="top"></a></p>
                 </div>
             </div>
         </div>
