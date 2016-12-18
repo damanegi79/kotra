@@ -42,4 +42,29 @@ $(document).ready(function(){
    },function(){
        $(this).removeClass('active')
    })
+   $('[data-role="tab_view"]').each(function(){
+        var list = $(this);
+        list.find('.btn').on('click',function(){
+           var num = list.find('.btn').index(this)
+           list.find('li').removeClass('active')
+           $(this).parent().addClass('active')
+           list.next().find($('[data-role="tab_content"]>li,[data-role="tab_content"]>div')).hide()
+           list.next().find($('[data-role="tab_content"]>li,[data-role="tab_content"]>div')).eq(num).show()
+           return false;
+       })
+   })
+//   $('[data-role="tab_view"] li .btn').on('click',function(){
+//        var num = $('[data-role="tab_view"] li .btn').index(this)
+//       $('[data-role="tab_view"] li').removeClass('active')
+//       $(this).parent().addClass('active')
+//       $('[data-role="tab_content"]>li,[data-role="tab_content"]>div').hide()
+//       $('[data-role="tab_content"]>li,[data-role="tab_content"]>div').eq(num).show()
+//       return false;
+//   })
+   $('.guideArea .guideCon .closeCon').on('click',function(){
+        $('.guideArea .guideCon .contents').hide()
+        $('[data-role="tab_view"] li').removeClass('active')
+        return false;
+   })
+   
 });
