@@ -66,5 +66,23 @@ $(document).ready(function(){
         $('[data-role="tab_view"] li').removeClass('active')
         return false;
    })
-   
+   $('.hamMenu button').on('click',function(){
+        $('.allLayer').show();
+    })
+   $('.allLayer .btn_close button').on('click',function(){
+        $('.allLayer').hide();
+    })
+   $('#nav li a').on('mouseover',function(){
+        var num = $('#nav li a').index(this);
+        $('#nav li a').removeClass('active')
+        $(this).addClass('active')
+        $('.subNav').show();
+        $('.subNav ul').hide();
+        $('.subNav ul').eq(num).show();
+   })
+   $('#header').on('mouseleave',function(){
+       $('#nav li a').removeClass('active')
+       $('.subNav').hide();
+       $('.subNav ul').hide();
+   })
 });
