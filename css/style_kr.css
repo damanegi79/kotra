@@ -274,7 +274,7 @@ button{background: none; border: none;font-size: 14px;}
 
 
 #contents_wrapper{background: url(../images/kr/bg_contents.png) repeat-x 0 0;}
-#menuLeft{float: left; width: 220px; border-bottom: 1px solid #000000;}
+#menuLeft{float: left; width: 220px; border-bottom: 1px solid #000000; margin-bottom: 50px;}
 #menuLeft #left_nav dt{height: 75px; border-bottom: 7px solid #0c658a; padding-left: 20px; padding-top: 35px; box-sizing: border-box; font-size: 22px; color: #06275a; background: url(../images/kr/bg_lnb_title.png) no-repeat 165px bottom;}
 #menuLeft #left_nav dd{border-top: 1px solid #dadada;}
 #menuLeft #left_nav dd a{display: block; position: relative;}
@@ -659,8 +659,8 @@ button{background: none; border: none;font-size: 14px;}
 .bbs-album-list .etc-wrap li.icon-like {padding: 3px 0px 3px 20px;}
 .bbs-album-list .etc-wrap li.icon-comment {padding: 3px 0px 3px 20px;}
 .bbs-album-list .etc-wrap li.icon-click:before {content:'';position:absolute;left:0px;top: 0px;width:17px;height:19px;display:block;background:url(../images/kr/ico_mouse.png) 0 center no-repeat;}
-.bbs-album-list .etc-wrap li.icon-like:before {content:'';position:absolute;left:0px;top: 3px;width:17px;height:15px;display:block;background:url(/site/kotranews/images/sub/icon-like2.png) 0 center no-repeat;}
-.bbs-album-list .etc-wrap li.icon-comment:before {content:'';position:absolute;left:0px;top: 4px;width:17px;height:15px;display:block;background:url(/site/kotranews/images/sub/icon-comment2.png) 0 center no-repeat;}
+.bbs-album-list .etc-wrap li.icon-like:before {content:'';position:absolute;left:0px;top: 3px;width:17px;height:15px;display:block;background:url(../images/kr/icon-like2.png) 0 center no-repeat;}
+.bbs-album-list .etc-wrap li.icon-comment:before {content:'';position:absolute;left:0px;top: 4px;width:17px;height:15px;display:block;background:url(../images/kr/icon-comment2.png) 0 center no-repeat;}
 
 .paging{ text-align: center; margin-top: 30px; margin-bottom: 40px;}
 .paging a{display: inline-block; width: 25px; height: 25px; line-height: 25px;}
@@ -690,3 +690,28 @@ button{background: none; border: none;font-size: 14px;}
 .seed_tbl table tbody tr:first-of-type td {border-top:0;}
 .seed_tbl table td a {}
 .seed_tbl table td a.bbsTitle {display:inline-block;max-width:80%;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
+
+
+.bbsView .viewHeader{border-bottom: 1px solid #cdcdcd; border-top: 2px solid #fb665a; padding: 15px 0 15px 10px}
+.bbsView .viewHeader h3{font-size: 24px; color: #3f3f3f; margin-bottom: 10px;}
+.bbsView .viewHeader .etc-list span {position:relative;float:left;font-size:15px;}
+.bbsView .viewHeader .etc-list span:after{margin:0 10px;content:'|';color:#999999;}
+.bbsView .viewHeader .etc-list span:last-child:after{content:'';}
+.bbsView .bbsContents{border-bottom: 1px solid #cdcdcd; padding: 30px 10px; min-height:300px;}
+.btnLine{text-align: center; padding: 20px 0;}
+.btnLine button{display: inline-block; text-align: center; height: 28px; line-height: 28px; color: #fff;}
+.btnLine button.btn_blue{background-color: #29477d; border-radius: 3px; padding: 0 15px; min-width: 70px;}
+
+.next-post-wrap {border-top:1px solid #d5d5d5;background:#f6f6f6;font-size:14px;}
+.next-post-wrap li {padding:13px 25px;border-bottom:1px solid #d5d5d5;color:#000;}
+.next-post-wrap li span {float:left;display:inline-block;padding-right:24px;}
+.next-post-wrap li p {float:left;display:block;width:600px;margin-left:30px;}
+.next-post-wrap li p a {display:block;font-size:14px;color:#000;}
+.next-post-wrap .prev-post span {background:url(../images/kr/arrow-post-prev.png) right center no-repeat}
+.next-post-wrap .next-post span {background:url(../images/kr/arrow-post-next.png) right center no-repeat}
+
+/* 한줄 처리 */
+.ellipsis {overflow:hidden;text-overflow: ellipsis;white-space: nowrap;word-wrap:normal;}
+.ellipsis-two {overflow:hidden;height:40px;}
+.ellipsis-two-small {overflow:hidden;height:32px;}
+.ellipsis-three {overflow:hidden;height:52px;}
