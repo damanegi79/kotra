@@ -574,13 +574,14 @@ button{background: none; border: none;font-size: 14px;}
 .previewSite .paging  a:after{display:inline-block; content: ""; color: #acacac; width: 1px; border-right: 1px solid #acacac; height:15px; float: left; margin-top:7px; position: absolute; left: 0; top: 0;}
 .previewSite .paging  a.active:after{display:none;}
 .previewSite .paging  a:first-child:after{display: none;}
-.previewSite .control_float button{display: block; width: 74px; height: 74px; position: absolute; top: 335px;}
+.previewSite .control_float button{display: block; width: 74px; height: 74px; position: absolute; top: 280px;}
 .previewSite .control_float .prev{background: url(../images/kr/bg_arrow_news_prev.png) no-repeat; opacity: 0.5; left: 0;}
 .previewSite .control_float .next{background: url(../images/kr/bg_arrow_news_next.png) no-repeat; opacity: 0.5; right: 0;}
 .previewSite .contents_site_wrap{padding:0 105px;}
 .previewSite .contents_site_wrap .bx-viewport{box-shadow: 3px 3px 5px rgba(0,0,0,0.2);border: 1px solid #b3b3b3; background: url(../images/kr/bg_prev.png) no-repeat 50% 50%; background-size: 100% 100%;}
 .previewSite .control {float: right; margin-top: 12px; margin-right: 104px;}
 .previewSite .control span{display: inline-block; width: 27px; height: 25px; background-color: #fff; border: 1px solid #a0a0a0; float: left;}
+.previewSite .control span:first-child{border-right: none;}
 .previewSite .control span a{width: 27px; height: 25px;text-indent: -9999px; overflow: hidden; display: block;}
 .previewSite .control .prev a{background: url(../images/kr/btn_bottomSlide_prev.png) no-repeat 50% 50%;}
 .previewSite .control .next a{background: url(../images/kr/btn_bottomSlide_next.png) no-repeat 50% 50%;}
