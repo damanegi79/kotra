@@ -610,8 +610,8 @@ button{background: none; border: none;font-size: 14px;}
 .siteContents .contents .rightMenu .quickMenu li{ width: 50%; text-align: center; float: left;}
 .siteContents .contents .rightMenu dl.short dd{line-height: 34px;}
 
-.indexMenu{background:rgba(0,0,0,0.5); position:fixed; z-index: 100; top:0px; left: 0; bottom: 0; right: 0;  display: none;}
-.indexMenu .contents_box{background-color: #fff; margin-top: 81px;}
+.indexMenu{background:rgba(0,0,0,0.5); position: absolute; z-index: 100; top: 80px; left: 0; bottom: 0; right: 0;  display: none;}
+.indexMenu .contents_box{background-color: #fff;}
 .indexMenu .contents_box dl{float: left; width: 20%; height: 100%; position: relative;}
 .indexMenu .contents_box dl dt{color: #fff; height: 56px; background-color: #29477d; line-height: 56px; padding-left: 30px; font-size: 18px;}
 .indexMenu .contents_box dl dd{padding: 20px 0; height: 470px;}
