@@ -273,7 +273,7 @@ button{background: none; border: none;font-size: 14px;}
 #footer .family_link .link_list li a{display: block; height: 30px; line-height: 30px; padding-left: 15px; color: #fff;}
 
 
-#contents_wrapper{background: url(../images/kr/bg_contents.png) repeat-x 0 0;}
+#contents_wrapper{background: url(../images/kr/bg_contents.png) repeat-x 0 0; position: relative;}
 #menuLeft{float: left; width: 220px; border-bottom: 1px solid #000000; margin-bottom: 50px;}
 #menuLeft #left_nav dt{height: 75px; border-bottom: 7px solid #0c658a; padding-left: 20px; padding-top: 35px; box-sizing: border-box; font-size: 22px; color: #06275a; background: url(../images/kr/bg_lnb_title.png) no-repeat 165px bottom;}
 #menuLeft #left_nav dd{border-top: 1px solid #dadada;}
@@ -297,6 +297,7 @@ button{background: none; border: none;font-size: 14px;}
 #article_area #location b{color: #000; font-weight: normal;}
 #article_area #location span{display: inline-block; text-align: center; width: 15px; font-family: 'dotum'; vertical-align:middle;}
 #contents_wrap {position: relative;}
+#contents_wrap .contents{position: relative;}
 #contents_wrap .contents_header{height: 55px; padding-top: 35px;}
 #contents_wrap .contents_header h2{font-size: 24px; color: #06275a; padding-left: 30px; background: url(../images/kr/bg_contents_title.png) no-repeat left 3px;}
 #contents_wrap .contents_header h2 span{color: #e1544a; }
@@ -465,7 +466,7 @@ button{background: none; border: none;font-size: 14px;}
 .history_tab ul li.active a{font-size: 20px;}
 .history_tab ul li.active a b{color: #e1544a;}
 .history_tab ul li.active a:after{background: url(../images/kr/bg_histoty_tab_on.png) no-repeat;}
-.history_list{margin-top: 35px; margin-left: -22px;}
+.history_list{margin-top: 35px; margin-left: -22px; position: relative;}
 .history_list li{float: left; margin-left: 20px; margin-bottom: 60px;}
 /*.history_list li:nth-child(4n+1){margin: }*/
 .history_list li a{display: block; width: 188px; box-sizing: border-box; border: 1px solid #e1e1e1; height: 225px; padding-top: 7px; box-shadow:0 0 5px rgba(0,0,0,0.1)}
@@ -475,6 +476,22 @@ button{background: none; border: none;font-size: 14px;}
 .history_list li a .summery{display: block; color: #363636; margin-top: 10px; height: 44px; overflow:hidden; text-overflow:ellipsis; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; word-wrap:break-wrod;}
 .history_list li a .date{display: block; text-align: center; font-size: 12px; color: #7d7d7d;}
 
+#contents_wrap .historyCon{position: absolute; width: 100%; background-color: #fff; border: 1px solid #cbcaca; box-shadow: 0px 3px 10px rgba(0,0,0,0.3); left: -2px; top: 45px; display: none;}
+#contents_wrap .historyCon .imgArea{overflow: hidden;}
+#contents_wrap .historyCon .imgArea .imgBox{ width: 510px; overflow: hidden; margin-left: auto; margin-right: auto; margin-top: 105px;}
+#contents_wrap .historyCon .imgArea img{width: 100%;}
+#contents_wrap .historyCon .textArea{background-color: #ececec;}
+#contents_wrap .historyCon .textArea dl{ width: 510px; margin: auto; padding: 40px 0; position: relative;}
+#contents_wrap .historyCon .textArea dl dt{font-size: 18px; color: #000; margin-bottom: 10px;}
+#contents_wrap .historyCon .textArea dl dd{font-size: 14px; color: #464646; line-height: 160%;}
+#contents_wrap .historyCon .textArea dl dd.date{position: absolute; right: 0; top: 40px; color: #999;}
+#contents_wrap .historyCon .close{position: absolute; right:15px; top:15px; display: block; background: url(../images/kr/btn_close_gray.png) no-repeat; width: 24px; height: 24px; text-indent: -9999px; overflow: hidden;}
+#contents_wrap .historyCon .control span{ position: absolute; top:280px;}
+#contents_wrap .historyCon .control span a{display: block; width: 50px; height: 50px; text-indent: -9999px; overflow: hidden;}
+#contents_wrap .historyCon .control span.prev{left:0px;}
+#contents_wrap .historyCon .control span.prev a{ background: url(../images/kr/btn_history_prev.png) no-repeat;}
+#contents_wrap .historyCon .control span.next{right:0px;}
+#contents_wrap .historyCon .control span.next a{background: url(../images/kr/btn_history_next.png) no-repeat;}
 
 #subIndex_wrapper{ padding: 30px 0;}
 #subIndex_wrapper .left_banner {padding-top: 35px; position: relative; width: 584px; float: left;}
