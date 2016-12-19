@@ -628,3 +628,47 @@ button{background: none; border: none;font-size: 14px;}
 .subNav .subMenu li a{display: inline-block; height: 40px; line-height: 40px; font-size: 16px; color: #363636; padding: 0 15px; background: url(../images/kr/bulit_nav.png) no-repeat left center;}
 .subNav .subMenu li a:hover{color:#fff; background: #4a8ac7; border-radius:3px;}
 .subNav .subMenu li:nth-child(4n+1){border: none;}
+
+.listHeader{}
+.listHeader .bbsNum{float: left; font-size: 12px; color: #444; margin-top: 10px;}
+.listHeader .bbsNum label{display: inline-block; color: #898989;}
+.listHeader .bbsNum label:before{content: "|"; display: inline-block; margin-left: 5px;margin-right: 5px; color: #ddd;}
+.listHeader .bbsNum select{height: 18px; line-height: 18px; width:80px; font-size: 12px; vertical-align: middle; margin-left: 5px; padding-left: 5px;}
+.listHeader .viewChg{float: right;}
+.listHeader .viewChg button{display: inline-block; width: 27px; height: 27px; text-indent: -9999px; overflow: hidden;}
+.listHeader .viewChg button.type01{background: url(../images/kr/bg_sort01.png) no-repeat 0 0;}
+.listHeader .viewChg button.type02{background: url(../images/kr/bg_sort02.png) no-repeat 0 0;}
+.listHeader .viewChg button.active{background-position: 0 -27px;}
+
+.bbs-album-list {border-top:2px solid #fb665a; margin-top: 10px;}
+.bbs-album-list .list > li {position:relative;padding:17px 10px;border-bottom:1px solid #ddd;}
+.bbs-album-list .list > li:hover {background:#FDFDFD}
+.bbs-album-list .list > li > img {float:left;width:135px;height:95px;margin-right:15px;}
+.bbs-album-list .list .tit {margin-bottom:8px;font-size:16px;font-weight:bold;overflow:hidden;text-overflow: ellipsis;white-space: nowrap;word-wrap:normal}
+.bbs-album-list .list .tit img {margin-left:5px;}
+.bbs-album-list .list .con {overflow:hidden;max-height:42px;line-height:1.6;margin-bottom:10px;}
+.bbs-album-list .etc-wrap {}
+.bbs-album-list .etc-wrap:after{content: ""; display: block; clear: both;}
+.bbs-album-list .etc-wrap li {position:relative;float:left;padding:2px 0;font-size:13px;}
+.bbs-album-list .etc-wrap li:after {margin:0 10px;content:'|';color:#e7e7e7;}
+.bbs-album-list .etc-wrap li.blue {height:18px;color:#6889b9;font-weight:bold;}
+.bbs-album-list .etc-wrap li.blue:after, 
+.bbs-album-list .etc-wrap li:last-child:after {content:'';}
+
+.bbs-album-list .etc-wrap li.icon-click {padding: 3px 0px 3px 17px;}
+.bbs-album-list .etc-wrap li.icon-like {padding: 3px 0px 3px 20px;}
+.bbs-album-list .etc-wrap li.icon-comment {padding: 3px 0px 3px 20px;}
+.bbs-album-list .etc-wrap li.icon-click:before {content:'';position:absolute;left:0px;top: 0px;width:17px;height:19px;display:block;background:url(../images/kr/ico_mouse.png) 0 center no-repeat;}
+.bbs-album-list .etc-wrap li.icon-like:before {content:'';position:absolute;left:0px;top: 3px;width:17px;height:15px;display:block;background:url(/site/kotranews/images/sub/icon-like2.png) 0 center no-repeat;}
+.bbs-album-list .etc-wrap li.icon-comment:before {content:'';position:absolute;left:0px;top: 4px;width:17px;height:15px;display:block;background:url(/site/kotranews/images/sub/icon-comment2.png) 0 center no-repeat;}
+
+.paging{ text-align: center; margin-top: 30px; margin-bottom: 40px;}
+.paging a{display: inline-block; width: 25px; height: 25px; line-height: 25px;}
+.paging a.active{color: #fb665a;}
+.paging a.prev{margin-right: 5px;}
+.paging a.next{margin-left: 5px;}
+
+.bbs_search{background-color: #f7f7f7; border: 1px solid #e6e6e6; border-radius: 10px; padding:28px 0; text-align: center;}
+.bbs_search select{ width: 100px; background-color: #fff; padding-left: 5px; height: 26px;}
+.bbs_search input{ width: 390px; margin-left: 5px;}
+.bbs_search button{color: #fff; display: inline-block; height: 26px; line-height: 26px; border-radius: 3px; background-color: #29477d; width: 65px; margin-left: 5px;}
