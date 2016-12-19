@@ -682,8 +682,8 @@ button{background: none; border: none;font-size: 14px;}
 .seed_tbl .vb {vertical-align:bottom;}
 .seed_tbl table {width:100%;border-collapse:collapse;table-layout:fixed;}
 .seed_tbl thead tr {}
-.seed_tbl thead th {position:relative;height:38px;color:#000;border-bottom:1px solid #C3C3C3;background:#F7F7F7;}
-.seed_tbl table td {padding:10px;}
+.seed_tbl thead th {position:relative;height:40px;color:#000;border-bottom:1px solid #C3C3C3;background:#F7F7F7;}
+.seed_tbl table td {padding:12px 10px;}
 .seed_tbl table td {border-bottom:1px solid #e0e0e0;}
 .seed_tbl table tr:last-child td {}
 .seed_tbl table .textDown {word-break:break-word;}
