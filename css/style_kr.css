@@ -672,3 +672,21 @@ button{background: none; border: none;font-size: 14px;}
 .bbs_search select{ width: 100px; background-color: #fff; padding-left: 5px; height: 26px;}
 .bbs_search input{ width: 390px; margin-left: 5px;}
 .bbs_search button{color: #fff; display: inline-block; height: 26px; line-height: 26px; border-radius: 3px; background-color: #29477d; width: 65px; margin-left: 5px;}
+
+.seed_tbl {border-top:2px solid #fb665a; margin-top: 10px;}
+.seed_tbl .al {text-align:left;}
+.seed_tbl .ac {text-align:center;}
+.seed_tbl .ar {text-align:right;}
+.seed_tbl .vt {vertical-align:top;}
+.seed_tbl .vm {vertical-align:middle;}
+.seed_tbl .vb {vertical-align:bottom;}
+.seed_tbl table {width:100%;border-collapse:collapse;table-layout:fixed;}
+.seed_tbl thead tr {}
+.seed_tbl thead th {position:relative;height:38px;color:#000;border-bottom:1px solid #C3C3C3;background:#F7F7F7;}
+.seed_tbl table td {padding:10px;}
+.seed_tbl table td {border-bottom:1px solid #e0e0e0;}
+.seed_tbl table tr:last-child td {}
+.seed_tbl table .textDown {word-break:break-word;}
+.seed_tbl table tbody tr:first-of-type td {border-top:0;}
+.seed_tbl table td a {}
+.seed_tbl table td a.bbsTitle {display:inline-block;max-width:80%;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
