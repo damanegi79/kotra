@@ -41,6 +41,11 @@ button{background: none; border: none;font-size: 14px;}
 #header .gnb li{float: left; margin-left: 130px;}
 #header .gnb li:first-child{margin: 0;}
 #header .gnb li a{font-size: 22px;}
+#header .gnb.sub{margin-right: 100px;}
+#header .gnb.sub li{margin-left: 100px;}
+#header .search {position: absolute; right: 0; top: 38px;}
+#header .search .btn_search{color: #003986; font-size: 25px;}
+
 #header .rightMenu{position: absolute; right: 0; top:0;}
 #header .rightMenu span{float: left; display: inline-block; height: 26px; line-height: 26px; padding: 0 12px; border-right: 1px solid #e1e1e1;}
 #header .rightMenu dl{float: left;}
@@ -108,3 +113,49 @@ button{background: none; border: none;font-size: 14px;}
 #footer p.btn_site a{display: inline-block; margin-left: auto; margin-right: auto; border: 2px solid #fff; color: #fff; text-transform: uppercase; width: 245px; height: 40px; line-height: 40px;}
 #footer p.btn_site a i{margin-left:15px; vertical-align: middle;}
 
+#location{height: 38px;  background-color: #e8e9ed; border-top: 1px solid #d7d7d7; border-bottom: 1px solid #d7d7d7;}
+#location .locationLine{line-height: 38px; text-align: right; font-size: 12px;}
+#location .locationLine span{display: inline-block; color: #909091;}
+#location .locationLine span:before{content: "\f105"; font-family:'FontAwesome';color: #909091; display: inline-block; margin: 0 3px;}
+#location .locationLine span.here{color: #003986;}
+
+#contentsArea .leftMenu{ width: 200px;float: left; margin-bottom: 100px;}
+#contentsArea .leftMenu h2{height: 90px; border-bottom: 10px solid #448ccb; text-align: center; color: #fff; line-height: 90px; background-color: #003986; font-size: 18px;}
+#contentsArea .leftMenu li{border-top: 1px solid #7caeda;}
+#contentsArea .leftMenu li:first-child{border-top: none;}
+#contentsArea .leftMenu li a{display: block; font-size: 14px; color: #363636; padding-left: 45px; height: 48px; line-height: 48px; }
+#contentsArea .leftMenu li a:hover{background:#e5eff8;}
+#contentsArea .leftMenu li.active a{background:#e5eff8 url(../images/en/bg_menuBulit.png) no-repeat 35px center;}
+#contentsArea .contents{ width: 855px;float: right; padding-top: 50px; padding-bottom: 50px;}
+#contentsArea .contents h2{font-size: 26px; color: #448ccb;padding-left: 30px; background: url(../images/en/bg_contents_title.png) no-repeat left 4px; padding-bottom: 20px;}
+#contentsArea .contents h2 span{color: #003986;}
+#contentsArea .tabLine {border-bottom: 1px solid #448ccb;}
+#contentsArea .tabLine li{float: left; margin-right: -1px;}
+#contentsArea .tabLine li a{display: block; text-align: center; height: 35px; line-height: 35px; background-color: #f9f9f9; padding: 0 20px; min-width: 85px; border: 1px solid #dfdfdf; border-bottom: none;}
+#contentsArea .tabLine li.active a{border-color:#448ccb; background-color: #448ccb; color: #fff;}
+#contentsArea .bbsNum{text-align: right; font-size: 12px; padding: 10px 0; line-height:20px;}
+#contentsArea .bbsNum span{color: #898989;}
+#contentsArea .bbsNum select{height: 20px; line-height: 20px; padding-left: 5px; width: 80px; border: 1px solid #707070; margin-left: 10px; vertical-align: middle; font-size: 12px;}
+
+.tableBbsList{border-top: 4px solid #000; border-bottom: 1px solid #000;}
+.tableBbsList th{text-align: center; border-bottom: 1px solid #000; height: 60px; line-height: 60px;}
+.tableBbsList td{border-top: 1px solid #e3e3e3; padding: 15px 0;}
+.tableBbsList td a{margin-left: 10px; line-height: 140%;}
+.tableBbsList td a:hover{color: #448ccb;}
+.tableBbsList td.num{color: #959595; text-align: center; font-size: 12px;}
+.tableBbsList td.date{ text-align: center; font-size: 12px;}
+.tableBbsList td span.last{color: #959595;}
+
+.paging{text-align: center;}
+.paging a{display: inline-block; margin: 30px 2px; min-width: 16px; text-align: center;}
+
+.searchBox{background-color: #ececec; padding: 20px 0 20px 75px; font-size: 12px;}
+.searchBox input[type=text]{height: 22px; line-height: 22px; border: 1px solid #ddd; vertical-align: middle;}
+.searchBox select{height: 20px; line-height: 20px; padding-left: 5px; width:99px; border: 1px solid #707070;vertical-align: middle; font-size: 12px; background-color: #fff;}
+.searchBox .btn{display: inline-block; height: 22px; line-height: 22px; text-align: center; background-color: #c2c2c2; color: #333; font-size: 12px; width: 85px; border-radius: 3px; border: 1px solid #acacac;}
+.searchBox .callender{display: inline-block; height: 22px; line-height: 22px;}
+.searchBox .date{margin-top: 10px;}
+.searchBox .date:after{content: ""; display: block; clear: both;}
+.searchBox .date dl{float: left;}
+.searchBox .date dt{float: left; display: inline-block; vertical-align: middle; line-height: 24px; margin-right: 10px;}
+.searchBox .date dd{float: left;}
