@@ -566,8 +566,8 @@ button{background: none; border: none;font-size: 14px;}
 .guideArea .guideTab {margin-top: 25px; margin-bottom: 32px;}
 .guideArea .guideTab li{float: left; margin-left: 11px; position: relative;}
 .guideArea .guideTab li:first-child{margin: 0;}
-.guideArea .guideTab li button{display: block; width:158px; height: 158px; border:8px solid #e2e2e2; border-radius: 50%; overflow: hidden; box-sizing: content-box;}
-.guideArea .guideTab li.active button{border: 8px solid #ef4836;}
+.guideArea .guideTab li a{display: block; width:158px; height: 158px; border:8px solid #e2e2e2; border-radius: 50%; overflow: hidden; box-sizing: content-box;}
+.guideArea .guideTab li.active a{border: 8px solid #ef4836;}
 .guideArea .guideTab li.active:after{content: ""; position: absolute; background: url(../images/kr/ico_guice_arrow.png) no-repeat; width: 15px; height: 8px; display: block; top: 198px; left: 50%; margin-left: -8px;}
 .guideArea .guideCon {position: relative; margin-bottom: 30px;}
 .guideArea .guideCon .contents{position: relative; border: 5px solid #5f7ca6; position: relative; background-color: #eeeeee;}
@@ -585,13 +585,13 @@ button{background: none; border: none;font-size: 14px;}
 .guideArea .guideCon .contents {display: none;}
 
 .previewSite{background-color: #eeeeee; padding: 45px 0 50px 0;}
-.previewSite .paging{text-align: center; padding-left: 155px; margin-bottom: 20px;}
-.previewSite .paging {display: inline-block; float: left;}
-.previewSite .paging  a{color: #5f5f5f; display: inline-block; height: 30px; line-height: 30px;padding-left: 30px; padding-right: 30px; float: left; margin-left: -1px; position: relative; cursor: pointer;}
-.previewSite .paging  a.active{color:#fff; background-color: #000; }
-.previewSite .paging  a:after{display:inline-block; content: ""; color: #acacac; width: 1px; border-right: 1px solid #acacac; height:15px; float: left; margin-top:7px; position: absolute; left: 0; top: 0;}
-.previewSite .paging  a.active:after{display:none;}
-.previewSite .paging  a:first-child:after{display: none;}
+.previewSite .pagingPreview{text-align: center; padding-left: 155px; margin-bottom: 20px;}
+.previewSite .pagingPreview {display: inline-block; float: left;}
+.previewSite .pagingPreview  a{color: #5f5f5f; display: inline-block; height: 30px; line-height: 30px;padding-left: 30px; padding-right: 30px; float: left; margin-left: -1px; position: relative; cursor: pointer;}
+.previewSite .pagingPreview  a.active{color:#fff; background-color: #000; }
+.previewSite .pagingPreview  a:after{display:inline-block; content: ""; color: #acacac; width: 1px; border-right: 1px solid #acacac; height:15px; float: left; margin-top:7px; position: absolute; left: 0; top: 0;}
+.previewSite .pagingPreview  a.active:after{display:none;}
+.previewSite .pagingPreview  a:first-child:after{display: none;}
 .previewSite .control_float button{display: block; width: 74px; height: 74px; position: absolute; top: 280px;}
 .previewSite .control_float .prev{background: url(../images/kr/bg_arrow_news_prev.png) no-repeat; opacity: 0.5; left: 0;}
 .previewSite .control_float .next{background: url(../images/kr/bg_arrow_news_next.png) no-repeat; opacity: 0.5; right: 0;}
