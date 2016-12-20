@@ -85,4 +85,8 @@ $(document).ready(function(){
        $('.subNav').hide();
        $('.subNav ul').hide();
    })
+   $('.headBottom .search button').on('click',function(){
+        $('.headBottom .searchForm').toggle();
+    })
+   
 });

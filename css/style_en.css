@@ -51,6 +51,35 @@ button{background: none; border: none;font-size: 14px;}
 #header .rightMenu dl{float: left;}
 #header .rightMenu dl dt a{height: 26px; line-height: 26px; display: block; padding-left: 12px; color: #003986;}
 #visual{height: 330px; background: url(../images/en/bg_visual.jpg) no-repeat 50% 50%;}
+#visual .slogan{position: absolute; left: 20px; top: 55px; color: #05235b;}
+#visual .slogan h2{font-size: 40px; font-weight: bold;}
+#visual .slogan h2:after{display: block; height:4px; width: 70px; background-color: #05235b; content:""; margin-top: 8px;}
+#visual .slogan p{font-size: 18px; line-height: 24px; margin-top: 20px;}
+#visual .number li{position: absolute;display:table;}
+#visual .number li .circle{display:table; font-size: 11px; text-align: center; border-radius: 50%; line-height: 10px;color: #1761a0; border:2px solid #1761a0; position: absolute; transition: all 0.5s ease; transform: perspective(1000px) rotateX(0deg) translateY(0px); transform-origin: center top; z-index: 10; width: 100%; height: 100%; vertical-align: middle;}
+
+#visual .number li a em{display: table-cell; width: 100%; vertical-align: middle; font-style: normal;   border-radius: 50%; overflow: hidden; }
+#visual .number li a span{font-size: 29px; display: block; margin-left: auto; margin-right: auto; line-height: 28px; height: 26px; overflow: hidden; margin-top: 3px;}
+#visual .number li a.orange .circle{color: #c78709; border-color: #c78709;}
+#visual .number li a:hover .circle{color: #67aef7; border-color: #67aef7;transform:perspective(1000px)   rotateX(40deg) translateY(-20px); background-color:rgba(255,255,255,1);}
+
+#visual .number li .shadow{display: block; width: 100%; height: 100%; position: absolute; left:0px; top:0px; transition: all 0.5s ease; border-radius: 50%;transform:perspective(1000px)  rotateX(0deg) translateY(0px); border: 2px solid rgba(0,0,0,0);  transform-origin: center bottom; z-index: 1;}
+#visual .number li a:hover .shadow{transform: perspective(1000px)  rotateX(40deg) translateY(20px) scale(0.8);background-color:  rgba(0,0,0,0.3);box-shadow: 0 0 3px rgba(0,0,0,.3); height: 70%;}
+#visual .number li a.orange:hover .circle{color: #febe3e; border-color: #febe3e;}
+
+
+
+#visual .number li.number01{ width: 98px; height: 98px; left: 452px; top: 60px;}
+#visual .number li.number02{width: 84px; height: 84px; left: 514px; top: 158px;}
+#visual .number li.number03{width: 66px; height: 66px; left: 467px; top: 230px;}
+#visual .number li.number04{width: 72px; height: 72px; left: 935px; top: 74px;}
+#visual .number li.number05{width: 86px; height: 86px; left: 972px; top: 195px;}
+#visual .number li.number06{width: 70px; height: 70px; left: 584px; top: 48px;}
+#visual .number li.number07{width:88px; height:88px; left: 663px; top: 63px;}
+#visual .number li.number08{width:56px; height:56px; left: 752px; top: 112px;}
+#visual .number li.number09{width:68px; height:68px; left: 604px; top: 135px;}
+#visual .number li.number10{width:80px; height:80px; left: 697px; top: 167px;}
+
 #searcharea .search{padding-top: 35px; width: 550px; border-bottom: 3px solid #003986; margin: auto; height: 20px; line-height: 20px; padding-left: 10px; padding-right: 10px; font-size: 22px; padding-bottom: 10px;color: #003986;}
 #searcharea .search i{display: inline-block; height: 20px; line-height: 20px;}
 #searcharea .search input{height: 20px; line-height: 20px; margin-left:15px; width: 420px; border: none; font-size: 15px;}

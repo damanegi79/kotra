@@ -71,9 +71,10 @@ button{background: none; border: none;font-size: 14px;}
 #header .headBottom.sub_layout #nav li a{color: #fff;}
 #header .headBottom.sub_layout #nav li a:hover{color: #fff;}
 #header .headBottom.sub_layout .hamMenu{position: absolute; right: 0; top: 15px;}
+#header .headBottom.sub_layout .hamMenu button {cursor: pointer;}
 #header .headBottom.sub_layout .hamMenu button i{font-size:25px; color: #fff; line-height: 100%;}
-#header .headBottom .search{position: absolute; right:40px; top: 15px;}
-#header .headBottom .search button{background: none; border: none; }
+#header .headBottom .search{position: absolute; right:40px; top: 15px; z-index: 50;}
+#header .headBottom .search button{background: none; border: none; cursor: pointer;}
 #header .headBottom .search button i{font-size: 22px; color: #fff; line-height: 100%;}
 
 #header .headAside{border-bottom: 1px solid #dbdbdb;}
@@ -100,6 +101,11 @@ button{background: none; border: none;font-size: 14px;}
 #visual .visualMenu li.menu04 {float: right;}
 #visual .visualMenu li.menu04 a{background: url(../images/kr/bg_index_menu04.png) no-repeat; padding-left: 70px;}
 
+#visual .visualMenu li.menu01 a:hover{background: url(../images/kr/bg_index_menu01_on.png) no-repeat;}
+#visual .visualMenu li.menu02 a:hover{background: url(../images/kr/bg_index_menu02_on.png) no-repeat;}
+#visual .visualMenu li.menu03 a:hover{background: url(../images/kr/bg_index_menu03_on.png) no-repeat;}
+#visual .visualMenu li.menu04 a:hover{background: url(../images/kr/bg_index_menu04_on.png) no-repeat;}
+
 #search{text-align: center; padding: 18px 0;}
 #search input{border: 4px solid #226388; border-radius: 5px; height: 36px; padding-left: 10px; width: 490px; vertical-align: top; font-size: 18px;}
 #search button{display: inline-block; height: 44px; width: 44px; margin-left: 5px; background: url(../images/kr/ico_search.png) no-repeat 50% 50%; vertical-align: top; text-indent: -9999px; overflow: hidden;}
@@ -117,9 +123,11 @@ button{background: none; border: none;font-size: 14px;}
 #business .header .select_type ul li input:checked+label:before{background-color: #fff;}
 #business .header .select_type p.more{display: inline-block; vertical-align: middle; padding: 25px 35px 0 25px;}
 #business .header .select_type p.more a{display: block; color: #fff; border: 1px solid #fff; width: 48px; height: 20px; line-height: 20px; border-radius: 3px; font-size: 14px; text-align: center;}
-#business .business_list li{float: left; width: 366px; height: 138px;}
-#business .business_list li a{display:table; position: relative; color: #fff; width: 100%; height: 100%;}
+#business .business_list li{float: left; width:33.3333%; height: 138px;}
+#business .business_list li a{display:table; position: relative; color: #fff; width: 100%; height: 100%; box-sizing: border-box;}
+#business .business_list li a:hover{border: 2px solid #fff;}
 #business .business_list li a .dday{ color: #fff; position: absolute; left: 0; top: 0; border: 1px solid rgba(255,255,255,0.5); width: 36px; height: 26px; text-align: center; font-size: 12px; line-height: 28px; background-color: rgba(255,255,255,0.3)}
+#business .business_list li a:hover .dday{left: -2px; top: -2px;}
 #business .business_list li a dl{ text-align: center; padding: 0 30px; display: table-cell; height: 100%; vertical-align: middle;}
 #business .business_list li a dl dt{color: #86dbe0; font-size: 14px; margin-bottom: 5px;}
 #business .business_list li a dl dd{font-size: 16px; line-height: 140%;}
@@ -638,7 +646,7 @@ button{background: none; border: none;font-size: 14px;}
 .indexMenu .contents_box dl dd ul li a:hover{color: #fff; border-radius: 5px; background-color: #4a8ac7;}
 .indexMenu .contents_box .btn_close button{display: inline-block; width: 105px; height: 38px; line-height: 38px; background:rgba(0,0,0,0.5) url(../images/kr/btn_close_white.png) no-repeat 50% 50%; text-indent: -9999px; overflow: hidden; border-radius: 5px 5px 0 0; position: absolute; bottom: 0; left: 50%; margin-left: -52px;}
 
-.subNav{background-color: #fff; position: absolute; left: 0; right: 0; border-top: 10px solid #cbdce6; z-index: 10; display: none;}
+.subNav{background-color: #fff; position: absolute; left: 0; right: 0; border-top: 10px solid #cbdce6; z-index: 60; display: none;}
 .subNav .subMenu{padding: 60px 0;}
 .subNav .subMenu ul{display: none;}
 .subNav .subMenu li{float: left; width: 25%; padding-left: 45px; box-sizing: border-box; border-left: 1px solid #cbdce6;}
@@ -732,3 +740,8 @@ button{background: none; border: none;font-size: 14px;}
 .ellipsis-two {overflow:hidden;height:40px;}
 .ellipsis-two-small {overflow:hidden;height:32px;}
 .ellipsis-three {overflow:hidden;height:52px;}
+
+.headBottom .searchForm{position: absolute; right: 0; top: 70px; z-index: 50; display: none;}
+.headBottom .searchForm .searchBox{display: inline-block; border: 3px solid #06275a; border-radius: 5px; background-color: #fff; height: 44px; width: 320px; box-sizing: border-box; padding-top:7px;}
+.headBottom .searchForm .searchBox input{ width: 278px; margin-right:3px; border: none; font-size: 14px; padding-left: 10px; box-sizing: border-box;}
+.headBottom .searchForm .searchBox button i{font-size: 22px; color: #06275a; line-height: 100%;}
