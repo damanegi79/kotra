@@ -37,10 +37,15 @@ button{background: none; border: none;font-size: 14px;}
 #header{position: relative; border-top: 5px solid #003986; height: 85px;}
 #header h1.logo{margin-top: 15px; float: left;}
 #header h1.logo a{display: block; width: 140px; height: 55px; background: url(../images/en/img_logo.png) no-repeat; text-indent: -9999px; overflow: hidden;}
-#header .gnb{float: right; padding-top: 40px;}
-#header .gnb li{float: left; margin-left: 130px;}
-#header .gnb li:first-child{margin: 0;}
-#header .gnb li a{font-size: 22px;}
+#header .gnb{float: right; padding-top: 40px; position: relative; z-index: 60;}
+#header .gnb>li{float: left; margin-left: 130px; position: relative;}
+#header .gnb>li:first-child{margin: 0;}
+#header .gnb>li a{font-size: 22px; display: block;}
+#header .gnb>li a.active{color: #d29419;}
+#header .gnb ul.gnbSub{position: absolute; left: 50%; margin-left: -108px; width: 215px; top: 45px; background-color: #003986; height: 310px; padding-top: 20px; display: none;}
+#header .gnb ul.gnbSub:after{content: ''; background: url(../images/en/bg_suubNav.png) no-repeat; display: block; width: 12px; height: 6px; position: absolute; left: 50%; margin-left: -6px; top: -6px;}
+#header .gnb ul.gnbSub li a{color: #fff; font-size: 18px; display: block; height: 48px; line-height: 48px; padding-left: 35px;}
+#header .gnb ul.gnbSub li a:hover{background-color: #d29419;}
 #header .gnb.sub{margin-right: 100px;}
 #header .gnb.sub li{margin-left: 100px;}
 #header .search {position: absolute; right: 0; top: 38px;}
