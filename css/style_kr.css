@@ -797,3 +797,38 @@ button{background: none; border: none;font-size: 14px;}
 .headBottom .searchForm .searchBox{display: inline-block; border: 3px solid #06275a; border-radius: 5px; background-color: #fff; height: 44px; width: 320px; box-sizing: border-box; padding-top:7px;}
 .headBottom .searchForm .searchBox input{ width: 278px; margin-right:3px; border: none; font-size: 14px; padding-left: 10px; box-sizing: border-box;}
 .headBottom .searchForm .searchBox button i{font-size: 22px; color: #06275a; line-height: 100%;}
+
+.tradeMapArea{ width: 780px; height: 398px; background: url(../images/kr/bg_tradeMap.png) no-repeat; position: relative;}
+.tradeMapArea .number li{position: absolute;display:table;}
+.tradeMapArea .number li .circle{display:table; font-size: 11px; text-align: center; border-radius: 50%; line-height: 10px;color: #1761a0; border:2px solid #1761a0; position: absolute; transition: all 0.5s ease; transform: perspective(1000px) rotateX(0deg) translateY(0px); transform-origin: center top; z-index: 10; width: 100%; height: 100%; vertical-align: middle;}
+.tradeMapArea .number li a em{display: table-cell; width: 100%; vertical-align: middle; font-style: normal;   border-radius: 50%; overflow: hidden; position: relative;}
+.tradeMapArea .number li a span{font-size: 29px; display: block; margin-left: auto; margin-right: auto; line-height: 28px; height: 26px; overflow: hidden; margin-top: 3px;transition: all 0.5s ease;}
+.tradeMapArea .number li a.orange .circle{color: #c78709; border-color: #c78709;}
+.tradeMapArea .number li a:hover{z-index: 100;}
+.tradeMapArea .number li a:hover .circle{color: #67aef7; border-color: #67aef7;transform:perspective(1000px)   translateY(-20px); background-color:rgba(255,255,255,1);}
+.tradeMapArea .number li .shadow{display: block; width: 100%; height: 100%; position: absolute; left:0px; top:0px; transition: all 0.5s ease; border-radius: 50%;transform:perspective(1000px)  rotateX(0deg) translateY(0px); border: 2px solid rgba(0,0,0,0);  transform-origin: center bottom; z-index: 1;}
+.tradeMapArea .number li a:hover .shadow{transform: perspective(1000px)  rotateX(40deg) translateY(20px) scale(0.8);background-color:  rgba(0,0,0,0.3);box-shadow: 0 0 3px rgba(0,0,0,.3); height: 70%;}
+.tradeMapArea .number li a.orange:hover .circle{color: #febe3e; border-color: #febe3e;}
+.tradeMapArea .number li.number01{ width: 98px; height: 98px; left: 82px; top: 75px;}
+.tradeMapArea .number li.number02{width: 84px; height: 84px; left: 144px; top: 173px;}
+.tradeMapArea .number li.number03{width: 66px; height: 66px; left: 97px; top: 245px;}
+.tradeMapArea .number li.number04{width: 72px; height: 72px; left: 565px; top: 89px;}
+.tradeMapArea .number li.number05{width: 86px; height: 86px; left: 602px; top: 210px;}
+.tradeMapArea .number li.number06{width: 70px; height: 70px; left: 214px; top: 63px;}
+.tradeMapArea .number li.number07{width:88px; height:88px; left: 293px; top: 78px;}
+.tradeMapArea .number li.number08{width:56px; height:56px; left: 382px; top: 127px;}
+.tradeMapArea .number li.number09{width:68px; height:68px; left: 234px; top: 150px;}
+.tradeMapArea .number li.number10{width:80px; height:80px; left: 327px; top: 182px;}
+
+.tradeMapArea .number li a .title{display: inline-block; background-color: #1761a0; border-radius: 0 3px 3px 3px; color: #fff; position: absolute; white-space:nowrap; border: 1px solid #1761a0; height: 30px; line-height: 30px; padding: 0 10px; z-index: 100; left:0%; top:0%;  opacity: 0; transition: all 0.5s ease; transform: perspective(1000px) scale(0);}
+.tradeMapArea .number li a .title:after{content: ""; display: block; background: url(../images/kr/bg_map_ico_blue.png) no-repeat; width: 10px; height: 12px; position: absolute; left: -5px; top: -7px;}
+.tradeMapArea .number li a.orange .title{background-color: #c78709; border: 1px solid #c78709;}
+.tradeMapArea .number li a.orange .title:after{background: url(../images/kr/bg_map_ico_yellow.png) no-repeat;}
+
+.tradeMapArea .number li a:hover .title{left: 90%; top: 80%; display: block; opacity:1; transform: perspective(1000px) scale(1);}
+.tradeMapArea .number li a:hover .circle span.num{opacity: 0;}
+.tradeMapArea .number li a .circle span.go{ position: absolute; width: 100%; text-align: center; top: 50%; margin-top: -5px; color: #014188; font-weight: bold; opacity: 0;transition: all 0.5s ease;}
+.tradeMapArea .number li a:hover .circle span.go{opacity: 1;}
+.tradeMapArea .number li a.orange .circle span.go{color:#753900;}
+.tradeMapArea .number li.number04 a .circle span.go{margin-top: 0;}
+.tradeMapArea .number li.number05 a .circle span.go{margin-top: 0;}
